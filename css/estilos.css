@@ -1,0 +1,147 @@
+@charset "utf-8";
+body{
+    background-color: rgb(192, 197, 223);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:rgb(188, 185, 228); 
+    padding: center;
+}
+
+.imagemCapaPerfil{
+    width: 100%;
+    height: 75%;
+}
+
+.imagemPerfil{
+    width: 35%;
+    border-radius: 45%;
+    border: 5px solid white;
+    margin-top: -30%;
+    background-color: rgb(192, 197, 223);
+    
+}
+
+header div{
+    text-align: center;
+    padding: center;
+}
+
+header div h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    font-style: italic;
+    padding: 1%;
+    margin: 0;
+}
+
+.cargo {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2b304c;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+
+nav {
+    background-color: rgb(176, 181, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    padding: 10px 0;
+    
+}
+
+
+
+nav > a > img {
+
+    min-width: 15%;
+    min-height: 15%;
+    max-width: 30px;
+    max-height:30px;
+    object-fit: contain;
+   
+}
+
+
+body article{
+    background-color: rgb(214, 216, 228);
+    display: block;
+    border-radius: 10px;
+    margin: 10px 10%;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+body article h1{
+    text-align: center;
+}
+body article p{
+    padding: 0px 20px;
+    margin: 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+
+main{
+
+    margin-left: 3%;
+    margin-bottom: 3%;
+
+}
+
+main > section > p{
+    text-indent: 20px;
+}
+
+main > section {
+    margin-bottom: 25px;
+}
+
+main > section > h2 {
+    color: #1e2238;
+    border-bottom: 2px solid rgb(176, 181, 219);
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+main > section > h3 {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #2e3355;
+}
+
+.lista-tecnologias {
+    padding-left: 35px;
+    line-height: 1.8;
+}
+
+footer {
+    background-color: rgb(176, 181, 219);
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #1e2238;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
